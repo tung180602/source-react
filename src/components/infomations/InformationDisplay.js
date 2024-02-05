@@ -14,6 +14,9 @@ const InformationDisplay = ({ information, onInformationChange }) => {
   return (
     <div className='flex flex-col gap-4'>
       <p>Current Information: <span className='text-xl font-[600]'>{information}</span></p>
+      <p>Ngày tháng năm sinh : </p>
+      <p>Địa chỉ :</p>
+      <p>Tuổi :</p>
       <input
       className='border p-2'
         type="text"
